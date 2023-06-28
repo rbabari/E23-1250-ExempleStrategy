@@ -21,7 +21,7 @@ public class Main {
         r3.move();
         System.out.println("------ Modification de strategies ------");
         r1.setBehaviour(new NormalBehaviour());
-        r3.setBehaviour(new AgressiveBehaviour());
+        r3.setBehaviour(new PassiveBehavior());
 
         r1.move();
         r2.move();
