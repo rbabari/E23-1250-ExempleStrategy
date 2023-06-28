@@ -1,3 +1,5 @@
+```mermaid
+
 classDiagram
 direction BT
 class AggressiveBehavior {
@@ -36,3 +38,6 @@ Main  ..>  Robot : «create»
 Main  ..>  normalBehavior : «create»
 Robot "1" *--> "behavior 1" IBehavior 
 normalBehavior  ..>  IBehavior 
+
+
+```
